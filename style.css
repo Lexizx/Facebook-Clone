@@ -8,12 +8,14 @@
     --font-color: #b0b3b8;
     --body-color: #18191a;
     --nav-color: #242526;
+  
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position:fixed;
+    top: 0;
     width: 100%;
     background-color:var(--nav-color);
   
@@ -25,6 +27,7 @@ nav{
     align-items: center;
     gap: 0.5em;
     width: 50%;
+ 
 }
 .icon1{
 
@@ -126,14 +129,81 @@ section{
     justify-content: space-between;
     width: 100%;
     width: 100%;
-
-    height: 200vh;
-
+    height: 120vh;
+    margin-top: 60px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.788);
 }
 .section-left {
-
+    display: flex;
+    flex-direction: column;
+    background-color: var(--body-color);
     width: 30%;
+    padding-top: 20px;
 }
+
+.section-left div img{
+    width: 40px;
+    border-radius: 30px;
+    aspect-ratio: 1/1;
+    margin-right: 15px;
+}
+.section-left-img {
+    display: flex;
+    margin: 10px 0px 0px 20px;
+    align-items: center;
+}
+.section-left span{
+    width: 100%;
+    height: 60px;
+}
+
+.section-left span i, .section-left span img{
+   margin: 1em;
+}
+.Shortcuts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+.Shortcuts h4{
+    margin-left: 10px;
+}
+.shortcuts-img{
+    display: flex;
+    margin-bottom: 1em;
+ 
+}
+.Shortcuts div i p{
+    margin-top: -25px;
+ 
+}
+
+
+.arrow-shortcuts{
+    
+    margin-right: 0.5em;
+    background-color: var(--light-grey);
+    width: 40px;
+    text-align: center;
+    align-content: center;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section-center {
 
     width: 50%;
