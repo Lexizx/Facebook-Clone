@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}   
+:root{
+    --blue: #0866ff;
+    --light-grey: #3a3b3c;
+    --font-color: #b0b3b8;
+    --body-color: #18191a;
+    --nav-color: #242526;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color:var(--nav-color);
+  
+}
+
+/* NAVIGATION LEFT*/
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    width: 50%;
+}
+.icon1{
+
+    font-size: 30px;
+    padding: 5px;
+    color: var(--blue)
+}
+
+.fa-facebook-f{
+    border-radius: 50%;
+    width: 50px;
+    padding-top: 11px;
+    text-align: center;
+    aspect-ratio: 1/1;
+    color: white;
+    background-color: var(--blue);
+   
+}
+
+.icon2{
+    background-color: var(--light-grey);
+    border-radius: 30px;
+    padding: 10px;
+}
+.icon2 input{
+    border: none;
+    outline: none;
+    background: transparent; 
+    font-size: 20px;
+}
+.fa-magnifying-glass{
+    margin-right: 10px;
+    color: var(--font-color);
+    font-size: 20px;
+}
+
+/* NAVIGATION CENTER*/
+.nav-center{
+    display: flex;
+    color: white;
+    font-size: 2em;
+    justify-content: space-between;
+    width: 50%;
+}
+.nav-center i{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+}
+.nav-center i:hover{
+    background-color: var(--light-grey);
+}
+
+/* NAVIGATION RIGHT*/
+.nav-right{
+    width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2em;
+  gap: 0.3em;
+  color: white;
+  margin-right: 20px;
+
+}
+.nav-right .icon-rightNav{
+
+    background-color: var(--light-grey);
+    border-radius: 26px;
+    align-content: center;
+    text-align: center;
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+.nav-right img{
+    margin-top: 6px;
+    width: 50px;
+    border-radius: 30px;
+    aspect-ratio: 1/1;
+}
+.fa-chevron-down{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 15px;
+    background-color: var(--body-color);
+    padding: 2px;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+}
+
+
+
+/*MAIN BODY SECTION */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    width: 100%;
+
+    height: 200vh;
+
+}
+.section-left {
+
+    width: 30%;
+}
+.section-center {
+
+    width: 50%;
+}
+.section-right{
+
+    width: 30%;
+} 
