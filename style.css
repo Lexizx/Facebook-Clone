@@ -157,7 +157,12 @@ section{
     width: 100%;
     height: 60px;
 }
+hr{
+   width: 80%;
+   margin: 10px 30px 20px;
+   background-color: hsla(210, 2%, 20%, 0.534);
 
+}
 .section-left span i, .section-left span img{
    margin: 1em;
 }
@@ -175,14 +180,14 @@ section{
     margin-bottom: 1em;
  
 }
-.Shortcuts div i p{
-    margin-top: -25px;
- 
+.seemore-text{
+    margin-top: 5px;
 }
-
-
+.seemore-shortcuts{
+    margin-top: -5px;
+}
 .arrow-shortcuts{
-    
+   
     margin-right: 0.5em;
     background-color: var(--light-grey);
     width: 40px;
